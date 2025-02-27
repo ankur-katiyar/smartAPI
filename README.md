@@ -35,9 +35,38 @@ This project is a **Smart API Assistant** that automates the process of interact
    pip install -r requirements.txt
    ```
 
+## Setting Up Ollama
+To use the LLM for interpreting API responses, you need to set up Ollama and download the model.
+
+1. **Install Ollama**:
+   - Follow the official [Ollama installation guide](https://ollama.ai/docs/installation) for your operating system.
+
+2. **Download the Model**:
+   - Run the following command to download the `llama2` model:
+     ```bash
+     ollama pull llama2
+     ```
+   - This will download the model and make it available for use.
+
+3. **Start the Ollama Server**:
+   - Ensure the Ollama server is running. You can start it with:
+     ```bash
+     ollama serve
+     ```
+
+4. **Verify the Model**:
+   - You can test the model by running:
+     ```bash
+     ollama run llama2 "Hello, world!"
+     ```
+   - If you see a response, the model is ready to use.
+
 ## Usage
 Run the script:
 ```bash
 python smart_api.py
 ```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
