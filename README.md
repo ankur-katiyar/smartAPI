@@ -28,7 +28,7 @@ This project is a **Smart API Assistant** that automates the process of interact
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/smart-api-assistant.git
+   git clone https://github.com/ankurkatiyar/smartAPI.git
    ```
 2. Install the required dependencies:
    ```bash
